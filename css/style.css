@@ -1,0 +1,560 @@
+body {
+    margin: 0;
+    padding: 0;
+    front-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, li, p{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.hearder {
+    background-color: #283004;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+}
+
+.hearder h2 {
+    color: white;
+    font-size: 32px;
+    margin: 0;
+}
+.tipos-animais {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #eaf8b1;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.tipos-animais h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.tipos-animais ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.tipos-animais li {
+    list-style-type: none;
+    background-color: #c3c972;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 4px 4px 0px #222;
+}
+h1{
+    text-align: center;
+    margin-top: 100px
+}
+img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+.logo{
+    height: 50px;
+    width: 50px;
+
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 70px auto;
+}
+
+    .comparacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(234, 248, 177);
+}
+
+.tipo {
+    width: 40%;
+    text-align: center;
+}
+
+.tipo h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.tipo p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.separador {
+    font-size: 50px;
+    font-weight: bold;
+    color: #d62828;
+}
+.titulo{
+   font-size: 50px;
+   text-align: center;
+}
+.ajuda-flutuante {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 260px;
+    padding: 25px;
+
+    background-color: white;
+    border-left: 5px solid #d62828;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+    z-index: 1000;
+}
+
+.ajuda-titulo {
+    color: #d62828;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.ajuda-flutuante h2 {
+    margin: 8px 0;
+    font-size: 25px;
+}
+
+.ajuda-flutuante p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.ajuda-flutuante a {
+    display: block;
+    text-align: center;
+
+    margin-top: 15px;
+    padding: 10px;
+
+    background-color: #d62828;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.classe{
+    text-align: center;
+   
+    margin: 8px;
+   
+    
+    left: -20px;
+
+    background-color: lab(73.76% -2.5 53.66);
+    color: #000;
+
+    padding: 12px 35px;
+
+    font-size: 28px;
+
+}
+.item{
+display: block;
+    padding: 5px;
+    background-color: lab(73.76% -2.5 53.66);
+     border-radius: 15px;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+     margin: 6px;
+     
+   
+}
+.item p{
+    color: rgb(30, 31, 25);
+
+}
+.emergencia { 
+    width: 90%; 
+    max-width: 700px;
+     margin: 60px auto; 
+     padding: 35px; 
+     background: white;
+      border: 3px solid #d62828;
+       border-radius: 15px;
+        box-shadow: 6px 6px 0px #d62828;
+     } 
+     .emergencia h2 { 
+        text-align: center;
+         color: #d62828;
+          font-size: 35px; 
+        } 
+        .emergencia form {
+             display: flex;
+              flex-direction: column;
+               gap: 10px; 
+            } 
+               .emergencia label { 
+                font-weight: bold;
+                 margin-top: 10px; 
+             } 
+                .emergencia input, .emergencia textarea { 
+           padding: 12px;
+                     border: 2px solid #ccc;
+                      border-radius: 8px; font-size: 16px;
+                     } 
+                     .emergencia textarea {
+                         height: 120px;
+                          resize: vertical;
+                         }
+                          .emergencia button {
+                             margin-top: 15px;
+                              padding: 14px;
+                               background: #d62828;
+                                color: white;
+                                 border: none; border-radius: 8px;
+                                  font-size: 18px; 
+                                  font-weight: bold;
+                                   cursor: pointer;
+                                    transition: 0.3s;
+                                 } 
+                                 .emergencia button:hover {
+                                     transform: scale(1.05);
+                                     } 
+                                     .telefones { 
+                                        margin-top: 25px; 
+                                        text-align: center;
+                                     }
+.prevencao {
+     width: 90%;
+     max-width: 1100px;
+     margin: 70px auto;
+     padding: 40px;
+     background-color: rgb(218, 225, 206);
+     border-radius: 15px;
+     
+ } 
+ 
+ .prevencao h2 {
+     text-align: center;
+     font-size: 40px;
+     margin-bottom: 10px;
+     color:  lab(76.78% -1.15 68);
+     
+ } 
+ 
+ .subtitulo { 
+    text-align: center;
+ font-size: 18px;
+ margin-bottom: 35px; 
+}
+
+.dicas-prevencao { 
+    display: flex; 
+justify-content: center;
+ gap: 25px; flex-wrap: wrap;
+ } 
+ 
+ .dica {
+     width: 220px;
+    padding: 20px; 
+    border: 2px solid #222;
+     border-radius: 12px; background-color: #c3c972;;
+      } 
+    .dica:hover {
+     transform: scale(1.05);
+     box-shadow: 4px 4px 0px #222; } 
+     
+     .dica h3 { font-size: 20px;
+         margin-top: 0;
+     } .dica p {
+         font-size: 16px;
+          line-height: 1.5; }
+          
+
+
+/* ============================= */
+/* MITOS E VERDADES */
+/* ============================= */
+
+.mitos-verdades {
+    width: 100%;
+
+    background-color: #5e6419;
+
+    color: white;
+
+    padding: 50px 20px;
+
+    box-sizing: border-box;
+}
+
+.mitos-verdades h2 {
+    text-align: center;
+
+    font-size: 45px;
+
+    margin: 0 0 10px;
+}
+
+.subtitulo-mv {
+    text-align: center;
+
+    font-size: 18px;
+
+    margin-bottom: 40px;
+}
+
+.cards-mv {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.card-mv {
+    width: 240px;
+
+    padding: 25px;
+
+    background-color: white;
+
+    color: #222;
+
+    border-radius: 12px;
+
+    box-shadow: 6px 6px 0px #000;
+
+    box-sizing: border-box;
+
+    transition: 0.3s;
+}
+
+.card-mv:hover {
+    transform: scale(1.05);
+}
+
+.card-mv h3 {
+    font-size: 20px;
+
+    margin: 15px 0;
+}
+
+.card-mv p {
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+.mito,
+.verdade {
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    color: white;
+}
+
+.mito {
+    background-color: #d62828;
+}
+
+.verdade {
+    background-color: #16803c;
+}
+
+
+/* ============================= */
+/* RODAPÉ */
+/* ============================= */
+
+.rodape {
+    display: block;
+
+    width: 100vw;
+    max-width: none;
+
+    margin: 0;
+
+    padding: 50px 5% 25px;
+
+    background-color: #111;
+
+    color: white;
+
+    box-sizing: border-box;
+}
+
+.rodape-conteudo {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.rodape h2 {
+    font-size: 30px;
+
+    margin-bottom: 15px;
+}
+
+.rodape p {
+    font-size: 16px;
+
+    line-height: 1.5;
+
+    color: #ccc;
+}
+
+.fontes {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+}
+
+.fontes a {
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.fontes a:hover {
+    color: #f5c400;
+
+    transform: scale(1.05);
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+
+    background-color: #444;
+
+    margin: 30px 0 20px;
+}
+
+.credito {
+    margin-bottom: 5px;
+}
+
+.direitos {
+    font-size: 14px !important;
+
+    color: #888 !important;
+}
+
+
+/* ================================================= */
+/* OUTRAS PÁGINAS — MANTIDAS SEM ALTERAÇÃO */
+/* ================================================= */
+
+.emergencia { 
+    width: 90%; 
+    max-width: 700px;
+    margin: 60px auto; 
+    padding: 35px; 
+    background: white;
+    border: 3px solid #d62828;
+    border-radius: 15px;
+    box-shadow: 6px 6px 0px #d62828;
+}
+
+.emergencia h2 { 
+    text-align: center;
+    color: #d62828;
+    font-size: 35px; 
+}
+
+.emergencia form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.emergencia label { 
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+.emergencia input,
+.emergencia textarea { 
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.emergencia textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.emergencia button {
+    margin-top: 15px;
+    padding: 14px;
+    background: #d62828;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.emergencia button:hover {
+    transform: scale(1.05);
+}
+
+.telefones { 
+    margin-top: 25px;
+    text-align: center;
+}
