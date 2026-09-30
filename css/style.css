@@ -137,7 +137,6 @@ img{
 
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 
-    z-index: 1000;
 }
 
 .ajuda-titulo {
@@ -226,10 +225,10 @@ display: block;
                  margin-top: 10px; 
              } 
                 .emergencia input, .emergencia textarea { 
-           padding: 12px;
-                     border: 2px solid #ccc;
-                      border-radius: 8px; font-size: 16px;
-                     } 
+ padding: 12px;
+ border: 2px solid #ccc;
+ border-radius: 8px; font-size: 16px;
+} 
                      .emergencia textarea {
                          height: 120px;
                           resize: vertical;
@@ -288,11 +287,11 @@ justify-content: center;
     border: 2px solid #222;
      border-radius: 12px; background-color: #c3c972;;
       } 
-    .dica:hover {
-     transform: scale(1.05);
-     box-shadow: 4px 4px 0px #222; } 
+   
      
-     .dica h3 { font-size: 20px;
+     .dica h3 { 
+
+        font-size: 20px;
          margin-top: 0;
      } .dica p {
          font-size: 16px;
@@ -357,14 +356,12 @@ justify-content: center;
 
     box-shadow: 6px 6px 0px #000;
 
-    box-sizing: border-box;
+   
 
     transition: 0.3s;
 }
 
-.card-mv:hover {
-    transform: scale(1.05);
-}
+
 
 .card-mv h3 {
     font-size: 20px;
